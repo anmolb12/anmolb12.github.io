@@ -1,0 +1,56 @@
+/* Reset default list styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+}
+
+/* Style each list item */
+nav ul li {
+    display: inline;
+}
+
+/* Style each link */
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+nav ul li a:hover {
+    background-color: #111;
+}
+
+/* Style for the active page in the navigation */
+nav ul li a.active {
+    background-color: #4CAF50;
+}
+
+/* Style the sections */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f2f2f2;
+}
+
+/* Style the header */
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+/* Style the footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
